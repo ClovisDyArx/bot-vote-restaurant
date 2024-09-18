@@ -10,7 +10,6 @@ while flag:
 
     chrome_options = Options()
     chrome_options.add_argument("--incognito")
-    # chrome_options.add_argument("--proxy-server=http://13.37.28.247:80")
 
     service = Service('/usr/bin/chromedriver')
 
